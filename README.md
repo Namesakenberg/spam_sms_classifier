@@ -1,4 +1,4 @@
-Description
+Description:
 The goal of this project is to accurately classify SMS messages as spam or ham (not spam) using natural language processing (NLP) techniques. The project pipeline includes:
 
 Data preprocessing using the NLTK library for tokenization, stopword removal, and text normalization.
@@ -7,10 +7,10 @@ Feature extraction with TF-IDF Vectorizer to convert text messages into numerica
 
 Model training and evaluation using the Naive Bayes algorithm, which is particularly effective for text classification tasks.
 
-Dataset
+Dataset:
 The model is trained and evaluated on the publicly available UCI SMS Spam Collection Dataset, which contains thousands of labeled SMS messages.
 
-Technologies Used
+Technologies Used:
 Python
 
 NLTK for text preprocessing
@@ -21,7 +21,7 @@ Pandas and NumPy for data manipulation
 
 matplotlib and seaborn for representations
 
-Features
+Features:
 Preprocessing steps such as tokenization, stopword removal, and text normalization
 
 TF-IDF vectorization to convert text into meaningful features
